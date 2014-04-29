@@ -1337,7 +1337,7 @@ ul#mainnav li a {
 }
 
 .dark-header ul#mainnav > li > a:hover > span {
-    border-bottom:1px solid #fff;
+    border-bottom:3px solid #cc7818;
 }
 
 .dark-header ul#mainnav > li.item-active > a, .dark-header ul#mainnav > li > a.sf-with-ul:hover, .dark-header ul#mainnav li > a.sf-with-ul:active, .dark-header ul#mainnav > li > a.sf-with-ul:hover, .dark-header ul#mainnav li > a.sf-with-ul:active, .dark-header ul#mainnav li a:hover, .dark-header ul#mainnav li a:active, .dark-header ul#mainnav li a.current-menu-item {
@@ -1345,8 +1345,7 @@ ul#mainnav li a {
 }
 
 ul#mainnav > li > a:hover > span{
-    border-bottom:1px solid #323232;
-    padding-bottom:2px;
+    border-bottom:3px solid #cc7818;
 }
 
 ul#mainnav > li.item-active > a {
@@ -1361,6 +1360,9 @@ ul#mainnav > li > a.sf-with-ul:hover, ul#mainnav li > a.sf-with-ul:active {
 
 ul#mainnav > li.current-menu-item > a span {
     padding-bottom:2px;
+    font-family:SourceSansPro-Regular;
+    color:#fff;
+    padding:18px 0;
 }
 
 ul#mainnav > li > a.sf-with-ul:hover, ul#mainnav li > a.sf-with-ul:active {
