@@ -1,14 +1,4 @@
-function pattinav() {
-	
-	// Menu Superfish Call //
-	jQuery('ul#mainnav').superfish({
-		delay: 800,
-		speed: 'normal', 
-		autoArrows: false,
-		animation: {opacity:'show'},   
-		animationOut: {opacity:'hide'}
-	});		
-}
+
 
 function pattinav_extend() {
 
@@ -61,7 +51,6 @@ function pattinav_extend() {
 		var nava = jQuery(".nav-btn"),
 			navb = jQuery("#navigation"),
 			wind = jQuery(window).width();
-		
 		if (wind > 1023) {
 			navb.addClass("desktop");
 			navb.removeClass("mobile")
@@ -106,11 +95,5 @@ function pattinav_extend() {
 jQuery(document).ready(function() {
 
 	pattinav_extend();	
-	
-});
-
-jQuery(window).load(function() {
-
-	pattinav();	
 	
 });

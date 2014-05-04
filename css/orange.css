@@ -39,13 +39,6 @@ ul#mainnav li a:active span {
 	color: #FE7E17;
 }
 
-ul#mainnav > li.highlighted-state > a span, ul#mainnav > li.current > a span/*,
-ul#mainnav > li.current-menu-item > a span, .dark-header ul#mainnav > li.current-menu-item > a span*/  {
-	color: #FE7E17;
-	border-bottom: 1px solid #FE7E17;
-	padding-bottom: 2px;
-}
-
 .dark-header ul#mainnav > li > a:hover > span {
 	border-bottom: 1px solid #FE7E17 !important;
 }
@@ -77,11 +70,6 @@ ul#mainnav > li.current-menu-item > a span, .dark-header ul#mainnav > li.current
 .dt-service-item:hover {
 	background: #FE7E17;
 	border: 1px solid #FE7E17;
-}
-
-h1.section-title:after {
-	background: #FE7E17;
-    width:100%;
 }
 
 .team-social a:hover {

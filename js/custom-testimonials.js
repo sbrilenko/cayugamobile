@@ -13,8 +13,9 @@ jQuery(window).load(function() {
 		jQuery("#owl-testimonials-"+settingObj.id+"").owlCarousel({
 			autoHeight : true,
 			singleItem : true,
-			navigation:true,
-			slideSpeed : 1000
+			slideSpeed : 1000,
+            navigation : true, // Show next and prev buttons
+            pagination:  false
 		});
 
 	});

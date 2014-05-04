@@ -375,8 +375,18 @@
 
 	.map-wrapper [id^="google_map_"] {
 		height: 200px;
-	}		
-
+	}
+    .nyc-digital-mobile-studio
+    {
+        float:none;
+        text-align: center;
+    }
+    .follow-us
+    {
+        float:none;
+        margin:0;
+        text-align: center;
+    }
 }
 
 
@@ -459,7 +469,7 @@
         left: -30px;
         right: -30px;
         bottom: -100px;
-    }	
+    }
 
 }
 
@@ -631,7 +641,6 @@
 	ul#mainnav > li {
 		background: none;
 		width: 100%;
-		border-bottom: 1px solid #EFEFEF;
 	}
 
 	.dark-header ul#mainnav > li {
