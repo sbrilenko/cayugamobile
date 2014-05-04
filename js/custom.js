@@ -155,7 +155,7 @@ jQuery(document).ready(function() {
 	});			
 	
 	// PrettyPhoto
-	jQuery("a[rel^='prettyPhoto']").prettyPhoto({animation_speed:'normal',theme:'light_square',slideshow:3000, autoplay_slideshow: false});
+//	jQuery("a[rel^='prettyPhoto']").prettyPhoto({animation_speed:'normal',theme:'light_square',slideshow:3000, autoplay_slideshow: false});
 	
 
 	// Appending style classes to submit comment button
