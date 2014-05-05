@@ -966,7 +966,7 @@ input[type="text"], input[type="email"], input[type="password"], textarea, selec
 }
 
 textarea {
-    height:150px;
+    height:170px;
     padding:2% 2%;
     width: 100%;
     margin-bottom: 20px !important;
@@ -3281,7 +3281,7 @@ ul#social li a:hover {
 }
 
 .black {
-    background:#323232;
+    background:#49cbcd;
     color: #ffffff;
 }
 
@@ -3290,10 +3290,6 @@ ul#social li a:hover {
     color: #686868;
 }
 
-.black:hover {
-    color: #ffffff;
-    background:#222;
-}
 
 .black.alt:hover {
     border: 1px solid #222;
@@ -3884,5 +3880,24 @@ html .wpb_content_element .wpb_tour_tabs_wrapper .wpb_tabs_nav li.ui-state-activ
 {
     width:40%;
     text-align: center;
+}
+.soc-color
+{
+    background:url('../img/soc-color.png') 0 0 no-repeat;
+    height:42px;
+    width:42px;
+    float:left;
+}
+.soc-color.gp
+{
+    background-position: 0 -42px;
+}
+.soc-color.tw
+{
+    background-position: 0 -84px;
+}
+.pad
+{
+    margin:0 12px;
 }
 
