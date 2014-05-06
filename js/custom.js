@@ -29,69 +29,69 @@ jQuery(window).load(function() {
 
 
 //Effect for Scrolltop Button	
-function totop() {		
-	jQuery('.totop').hover(function(){	
-	jQuery(this).animate({bottom:"-5px"},{queue:false,duration:60}); },
-	function() {         
-		jQuery(this).animate({bottom:"-10px"},{queue:false,duration:60})
-	});
-	
-	//Scroll to top
-	jQuery('.totop').click(function(){
-        jQuery("html, body").animate({ scrollTop: 0 }, 700);
-        return false;
-    });	
-}
+//function totop() {
+//	jQuery('.totop').hover(function(){
+//	jQuery(this).animate({bottom:"-5px"},{queue:false,duration:60}); },
+//	function() {
+//		jQuery(this).animate({bottom:"-10px"},{queue:false,duration:60})
+//	});
+//
+//	//Scroll to top
+//	jQuery('.totop').click(function(){
+//        jQuery("html, body").animate({ scrollTop: 0 }, 700);
+//        return false;
+//    });
+//}
 
 
 // Services
 function pattiservices() {
-	jQuery('.dt-service-item').click(function() {
-			jQuery(this).parent().children('.dt-service-hover').fadeIn();
-			jQuery(this).parent().siblings().children('.dt-service-hover').fadeOut();
-			jQuery('.dt-service-item').addClass('under-opacity');			
-	});	
+//	jQuery('.dt-service-item').click(function() {
+//			jQuery(this).parent().children('.dt-service-hover').fadeIn();
+//			jQuery(this).parent().siblings().children('.dt-service-hover').fadeOut();
+//			jQuery('.dt-service-item').addClass('under-opacity');
+//	});
 	
-	jQuery('.dt-service-hover').click(function() {
-		jQuery(this).fadeOut();
-		jQuery('.dt-service-item').removeClass('under-opacity');	
-	});
+//	jQuery('.dt-service-hover').click(function() {
+//		jQuery(this).fadeOut();
+//		jQuery('.dt-service-item').removeClass('under-opacity');
+//	});
 
-	jQuery('.homepage-services').each(function(){
-		var divclass = jQuery(this).children('.dt-service-wrapper'),
-			instances = divclass.length;
-
-		switch (instances) { 
-		    case 1: 
-		        divclass.addClass('full-width');
-		        break;
-		    case 2: 
-		        divclass.addClass('percent-one-half');
-		        break;
-		    case 3: 
-		        divclass.addClass('percent-one-third');
-		        break;      
-		    case 4: 
-		        divclass.addClass('percent-one-fourth');
-		        break;
-		    case 5: 
-		        divclass.addClass('percent-one-fifth');
-		        break;
-		    case 6: 
-		        divclass.addClass('percent-one-sixth');
-		        break;		        
-		}
-
-		divclass.last().addClass('column-last');
-
-	})
+//	jQuery('.homepage-services').each(function(){
+//		var divclass = jQuery(this).children('.dt-service-wrapper'),
+//			instances = divclass.length;
+//
+//		switch (instances) {
+//		    case 1:
+//		        divclass.addClass('full-width');
+//		        break;
+//		    case 2:
+//		        divclass.addClass('percent-one-half');
+//		        break;
+//		    case 3:
+//		        divclass.addClass('percent-one-third');
+//		        break;
+//		    case 4:
+//		        divclass.addClass('percent-one-fourth');
+//		        break;
+//		    case 5:
+//		        divclass.addClass('percent-one-fifth');
+//		        break;
+//		    case 6:
+//		        divclass.addClass('percent-one-sixth');
+//		        break;
+//		}
+//
+//		divclass.last().addClass('column-last');
+//
+//	})
 }
 	
 jQuery(document).ready(function() {
 	// jQuery('.portfolio-slider').length ? alert('div found') : alert('Div not found');
 
 	//Run Functions
-	totop();	
+//	totop();
 	pattiservices();	
 
 	// Clients Slider
@@ -111,31 +111,31 @@ jQuery(document).ready(function() {
 	});			
 	
 	// Calculate Audio bar width	
-	var audiowidth = jQuery('.audio-item').width();
-	jQuery('.jp-progress').css({'width': audiowidth-250});
+//	var audiowidth = jQuery('.audio-item').width();
+//	jQuery('.jp-progress').css({'width': audiowidth-250});
 
 	
 	
 	// In and Out Effect
-	jQuery('.item-on-hover').hover(function(){		 		 
-		jQuery(this).animate({ opacity: 1 }, 200);
-		jQuery(this).children('.hover-link, .hover-image, .hover-video').animate({ opacity: 1 }, 200);
-	}, function(){
-		jQuery(this).animate({ opacity: 0 }, 200);
-		jQuery(this).children('.hover-link, .hover-image, .hover-video').animate({ opacity: 0 }, 200);
-	});
+//	jQuery('.item-on-hover').hover(function(){
+//		jQuery(this).animate({ opacity: 1 }, 200);
+//		jQuery(this).children('.hover-link, .hover-image, .hover-video').animate({ opacity: 1 }, 200);
+//	}, function(){
+//		jQuery(this).animate({ opacity: 0 }, 200);
+//		jQuery(this).children('.hover-link, .hover-image, .hover-video').animate({ opacity: 0 }, 200);
+//	});
 	
 	
 	// Portfolio Grid In and Out Effect //
-	jQuery('.grid-item-on-hover').hover(function(){
-		jQuery(this).animate({ opacity: 0.9 }, 200);
-	}, function(){
-			jQuery(this).animate({ opacity: 0 }, 200);
-		});
+//	jQuery('.grid-item-on-hover').hover(function(){
+//		jQuery(this).animate({ opacity: 0.9 }, 200);
+//	}, function(){
+//			jQuery(this).animate({ opacity: 0 }, 200);
+//		});
 
 	
 	// Video in Posts		
-	jQuery(".post-video").fitVids();	
+//	jQuery(".post-video").fitVids();
 
 	// Fix for Overlapping Iframes
 	jQuery('iframe').each(function() {

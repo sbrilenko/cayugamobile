@@ -64,50 +64,50 @@ jQuery('.patti-grid[id^="gridwrapper_"]').each( function() {
 				}
 			}	
 			
-			if ($item.hasClass('item-small')) {
-				jQuery('.item-small').css({
-					'width'		 : ((columnWidth)-4) + 'px',
-					'height' : Math.round(((columnWidth)-4) * 0.7777777) + 'px'
-				});
-				jQuery('.item-small img').css({
-					'width'		 : ((columnWidth)-4) + 'px',
-					'height' : 'auto'
-				});						
-			}
+//			if ($item.hasClass('item-small')) {
+//				jQuery('.item-small').css({
+//					'width'		 : ((columnWidth)-4) + 'px',
+//					'height' : Math.round(((columnWidth)-4) * 0.7777777) + 'px'
+//				});
+//				jQuery('.item-small img').css({
+//					'width'		 : ((columnWidth)-4) + 'px',
+//					'height' : 'auto'
+//				});
+//			}
 				
-			if ($item.hasClass('item-long')) {
-				if (w < 480) {
-					jQuery('.item-long').css({
-						'width'		 : ((columnWidth)-4) + 'px',
-						'height' : Math.round(((columnWidth)-4) * 0.7777777/2) + 'px'
-					});
-					jQuery('.item-long img').css({
-						'width'		 : ((columnWidth)-4) + 'px',
-						'height' : 'auto'
-					});		
-				}
-				else {
-					jQuery('.item-long').css({
-						'width'		 : ((columnWidth*2)-4) + 'px',
-						'height' : Math.round(((columnWidth)-4) * 0.7777777) + 'px'
-					});
-					jQuery('.item-long img').css({
-						'width'		 : ((columnWidth*2)-4) + 'px',
-						'height' : 'auto'
-					});					
-				}
-			}
+//			if ($item.hasClass('item-long')) {
+//				if (w < 480) {
+//					jQuery('.item-long').css({
+//						'width'		 : ((columnWidth)-4) + 'px',
+//						'height' : Math.round(((columnWidth)-4) * 0.7777777/2) + 'px'
+//					});
+//					jQuery('.item-long img').css({
+//						'width'		 : ((columnWidth)-4) + 'px',
+//						'height' : 'auto'
+//					});
+//				}
+//				else {
+//					jQuery('.item-long').css({
+//						'width'		 : ((columnWidth*2)-4) + 'px',
+//						'height' : Math.round(((columnWidth)-4) * 0.7777777) + 'px'
+//					});
+//					jQuery('.item-long img').css({
+//						'width'		 : ((columnWidth*2)-4) + 'px',
+//						'height' : 'auto'
+//					});
+//				}
+//			}
 			
-			if ($item.hasClass('item-high')) {
-				jQuery('.item-high').css({
-					'width'		 : ((columnWidth)-4) + 'px',
-					'height' : Math.round(((columnWidth*2)-4) * 0.7777777) + 'px'
-				});
-				jQuery('.item-high img').css({
-					'width'		 : ((columnWidth)-4) + 'px',
-					'height' : 'auto'
-				});				
-			}				
+//			if ($item.hasClass('item-high')) {
+//				jQuery('.item-high').css({
+//					'width'		 : ((columnWidth)-4) + 'px',
+//					'height' : Math.round(((columnWidth*2)-4) * 0.7777777) + 'px'
+//				});
+//				jQuery('.item-high img').css({
+//					'width'		 : ((columnWidth)-4) + 'px',
+//					'height' : 'auto'
+//				});
+//			}
 
 		});
 		return columnWidth;

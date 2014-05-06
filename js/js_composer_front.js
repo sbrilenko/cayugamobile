@@ -537,24 +537,24 @@ if ( typeof window['vc_prettyPhoto'] !== 'function' ) {
 	function vc_prettyPhoto() {
 		try {
 			// just in case. maybe prettyphoto isnt loaded on this site
-			jQuery('a.prettyphoto, .gallery-icon a[href*=".jpg"]').prettyPhoto({
-				animationSpeed: 'normal', /* fast/slow/normal */
-				padding: 15, /* padding for each side of the picture */
-				opacity: 0.7, /* Value betwee 0 and 1 */
-				showTitle: true, /* true/false */
-				allowresize: true, /* true/false */
-				counter_separator_label: '/', /* The separator for the gallery counter 1 "of" 2 */
-				theme: 'light_square', /* light_rounded / dark_rounded / light_square / dark_square */
-				hideflash: false, /* Hides all the flash object on a page, set to TRUE if flash appears over prettyPhoto */
-                deeplinking: false, /* Allow prettyPhoto to update the url to enable deeplinking. */
-				modal: false, /* If set to true, only the close button will close the window */
-				callback: function() {
-					var url = location.href;
-					var hashtag = (url.indexOf('#!prettyPhoto')) ? true : false;
-					if (hashtag) location.hash = "!";
-				} /* Called when prettyPhoto is closed */,
-				social_tools : ''
-			});
+//			jQuery('a.prettyphoto, .gallery-icon a[href*=".jpg"]').prettyPhoto({
+//				animationSpeed: 'normal', /* fast/slow/normal */
+//				padding: 15, /* padding for each side of the picture */
+//				opacity: 0.7, /* Value betwee 0 and 1 */
+//				showTitle: true, /* true/false */
+//				allowresize: true, /* true/false */
+//				counter_separator_label: '/', /* The separator for the gallery counter 1 "of" 2 */
+//				theme: 'light_square', /* light_rounded / dark_rounded / light_square / dark_square */
+//				hideflash: false, /* Hides all the flash object on a page, set to TRUE if flash appears over prettyPhoto */
+//                deeplinking: false, /* Allow prettyPhoto to update the url to enable deeplinking. */
+//				modal: false, /* If set to true, only the close button will close the window */
+//				callback: function() {
+//					var url = location.href;
+//					var hashtag = (url.indexOf('#!prettyPhoto')) ? true : false;
+//					if (hashtag) location.hash = "!";
+//				} /* Called when prettyPhoto is closed */,
+//				social_tools : ''
+//			});
 		} catch (err) { }
 	}
 }

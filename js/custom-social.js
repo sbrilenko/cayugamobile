@@ -2,9 +2,9 @@
 /*	Social Networks Block
 /*-----------------------------------------------------------------------------------*/
 	
-jQuery('.share-options a').click(function(e) {
-	e.preventDefault();
-});
+//jQuery('.share-options a').click(function(e) {
+//	e.preventDefault();
+//});
 
 // Twitter
 function twitterSharer(){

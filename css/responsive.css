@@ -181,6 +181,11 @@
 		height: 150px;
 	}
 
+    ul#mainnav > li.current-menu-item > a span, ul#mainnav > li.current-menu-item > span span
+    {
+        padding: 6px 10px;
+    }
+
 }
 
 	
@@ -280,8 +285,12 @@
 
 	.map-wrapper [id^="google_map_"] {
 		height: 200px;
-	}	
+	}
 
+    ul#mainnav > li.current-menu-item > a span, ul#mainnav > li.current-menu-item > span span
+    {
+        padding: 6px 10px;
+    }
 }
 
 
@@ -387,6 +396,11 @@
         margin:0;
         text-align: center;
     }
+
+    ul#mainnav > li.current-menu-item > a span, ul#mainnav > li.current-menu-item > span span
+    {
+        padding: 6px 10px;
+    }
 }
 
 
@@ -420,7 +434,6 @@
 	.percent-one-sixth,
 	.percent-five-sixth {
 		position: relative;
-		margin-right: 4%;
 		float: left;
 		min-height:1px;
 	}
@@ -471,6 +484,20 @@
         bottom: -100px;
     }
 
+    ul#mainnav > li.current-menu-item > a span, ul#mainnav > li.current-menu-item > span span
+    {
+        padding: 6px 10px;
+    }
+    h1
+    {
+        font-size:39px;
+        line-height: 61px;
+    }
+    .f-block-under-h1-text
+    {
+        font-size: 17px;
+        line-height: 30px;
+    }
 }
 
 @media only screen and (min-width: 1024px) and (max-width: 1279px) {
@@ -492,7 +519,11 @@
 	.wpb_row.in_container {
 		width: 1024px;
 	}
-
+    .f-block-under-h1-text
+    {
+        font-size: 25px;
+        line-height: 35px;
+    }
 }
 
 @media only screen and (max-width: 767px) { 
@@ -541,6 +572,11 @@
 		text-align: center;
 		float: none;
 	}
+
+    ul#mainnav > li.current-menu-item > a span, ul#mainnav > li.current-menu-item > span span
+    {
+        padding: 6px 10px;
+    }
 }
 
 @media only screen and (min-width: 1023px) {
@@ -551,158 +587,170 @@
 		width: 1px;
 		height: 1px;		
 	}
+
+    ul#mainnav li a
+    {
+        margin: 0;
+    }
 }
 
 @media only screen and (max-width: 767px) {
-	.float-left {
-		float: none;
-		text-align: center;
-	}
+.float-left {
+float: none;
+text-align: center;
+}
 
-	.counter-item.with-border:before {
-		border: 0;
-	}
+.counter-item.with-border:before {
+border: 0;
+}
 
-	.fancy-slider-info:before, .fancy-slider-info:after {
-		display: none;
-	}
+.fancy-slider-info:before, .fancy-slider-info:after {
+display: none;
+}
 
 }
 
 @media only screen and (max-width: 1023px) {
-	.counter-item.with-border:before {
-		left: -9px;
-	}	
-	.pricing-column.cols-5,.pricing-column.cols-6 {
-		width: 50%;
-		margin-bottom: 20px;
-	}	
-	.flags_language_selector {
-		display: none;
-	}
+.counter-item.with-border:before {
+left: -9px;
+}
+.pricing-column.cols-5,.pricing-column.cols-6 {
+width: 50%;
+margin-bottom: 20px;
+}
+.flags_language_selector {
+display: none;
+}
+    ul#mainnav li a
+    {
+        margin: 0;
+    }
 }
 
 @media only screen and (max-width: 1279px) {
-	.counter-item.with-border:before {
-		left: -13px;
-	}	
+.counter-item.with-border:before {
+left: -13px;
+}
 
-	.centered-wrapper .centered-wrapper {
-		padding: 0 !important;
-	}
+.centered-wrapper .centered-wrapper {
+padding: 0 !important;
+}
 }
 
 @media only screen and (min-width: 1280px) {
-	.counter-item.with-border:before {
-		left: -14px;
-	}	
+.counter-item.with-border:before {
+left: -14px;
+}
 }
 
 @media only screen and (max-width: 1023px) {
 
-	ul.tabs li {
-    width: 100%;
-	}
-	
-	ul.tabs li a {
-    border: 1px solid #efefef;
-		
-	
-    padding-top: 15px;
-    padding-bottom: 15px;
+ul.tabs li {
+width: 100%;
 }
-	
-	ul.tabs li.active {
-		
-	}
 
-	.percent-blog, .percent-sidebar, .percent-page {
-		width: 100%;
-		margin: 0;
-		clear:both;
-	}
-	
-	.page-title-subtitle h2 {
-		line-height: 50px;
-	}
-
-	#navigation {
-		margin-top: 15px;
-		width: 100%;
-	}
-
-	ul#mainnav {
-		padding-top: 0;
-		width: 100%;
-	
-		margin-right: 0;
-	}
-	
-	ul#mainnav > li {
-		background: none;
-		width: 100%;
-	}
-
-	.dark-header ul#mainnav > li {
-		background: none;
-	}
-	
-	ul#mainnav > li:last-child {
-		border: 0;
-	}
-	
-	 ul#mainnav li a {
-		padding: 9px 0;
-		display: block;
-		margin: 0;
-		height: auto;
-		line-height: inherit;
-	}
-	
-	ul#mainnav li ul {
-		display: block !important;
-		position: relative;
-		padding: 0;
-		width: 95%;
-	}
-	ul#mainnav li ul li {
-		border-top: 1px solid #EFEFEF;
-		background: transparent;
-	}
-	
-	ul#mainnav li ul li a, ul#mainnav li ul li ul li a, ul#mainnav li ul li a:visited, ul#mainnav li ul li a:active	 {
-    width: 100%;
-    padding: 9px 0;
-    font-size: 13px !important;
-    background: transparent !important;
-	}
-	.sf-menu ul {
-    left: 5%;
-	}
-
-	ul#mainnav li ul li ul {
-		left: 5%;
-	}
+ul.tabs li a {
+border: 1px solid #efefef;
 
 
-	#header .percent-three-fourth {
-		width: 100%;
-		clear: both;
-		margin-bottom: 0px;
-	}
-	
-	#header .centered-wrapper {
-		position: relative;
-	}
-	
-	#header {
-		width: 100%;
-	}
-	
-	#header .percent-one-fourth {
-		margin-bottom: 0px;
-	}
+padding-top: 15px;
+padding-bottom: 15px;
+}
 
-	
-	
+ul.tabs li.active {
+
+}
+
+.percent-blog, .percent-sidebar, .percent-page {
+width: 100%;
+margin: 0;
+clear:both;
+}
+
+.page-title-subtitle h2 {
+line-height: 50px;
+}
+
+#navigation {
+margin-top: 15px;
+width: 100%;
+}
+
+ul#mainnav {
+padding-top: 0;
+width: 100%;
+
+margin-right: 0;
+}
+
+ul#mainnav > li {
+background: none;
+width: 100%;
+}
+
+.dark-header ul#mainnav > li {
+background: none;
+}
+
+ul#mainnav > li:last-child {
+border: 0;
+}
+
+ul#mainnav li a {
+padding: 9px 0;
+display: block;
+margin: 0;
+height: auto;
+line-height: inherit;
+}
+
+ul#mainnav li ul {
+display: block !important;
+position: relative;
+padding: 0;
+width: 95%;
+}
+ul#mainnav li ul li {
+border-top: 1px solid #EFEFEF;
+background: transparent;
+}
+
+ul#mainnav li ul li a, ul#mainnav li ul li ul li a, ul#mainnav li ul li a:visited, ul#mainnav li ul li a:active	 {
+width: 100%;
+padding: 9px 0;
+font-size: 13px !important;
+background: transparent !important;
+}
+.sf-menu ul {
+left: 5%;
+}
+
+ul#mainnav li ul li ul {
+left: 5%;
+}
+
+
+#header .percent-three-fourth {
+width: 100%;
+clear: both;
+margin-bottom: 0px;
+}
+
+#header .centered-wrapper {
+position: relative;
+}
+
+#header {
+width: 100%;
+}
+
+#header .percent-one-fourth {
+margin-bottom: 0px;
+}
+    ul#mainnav li a
+    {
+        margin: 0;
+    }
+
+
 }

@@ -1,28 +1,15 @@
 <!DOCTYPE html>
 <html lang="en-US">
 <head>
-
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-
     <!-- mobile meta tag -->
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
     <title>Cayuga mobile</title>
 
-    <!-- Custom Favicon -->
-
-    <!--<link rel='stylesheet' id='contact-form-7-css'  href='css/styles.css' type='text/css' media='all' />-->
     <link rel='stylesheet' id='dt-default-style-css'  href='css/style.css' type='text/css' media='all' />
-    <style type='text/css'>
-        iframe{-webkit-filter: grayscale(100%); -moz-filter: grayscale(100%); -ms-filter: grayscale(100%); -o-filter: grayscale(100%); filter: grayscale(100%); filter: gray; }
-    </style>
-    <!--<link rel='stylesheet' id='dt-prettyphoto-lightbox-css'  href='css/prettyPhoto.css?ver=3.8.1' type='text/css' media='all' />-->
-    <!--<link rel='stylesheet' id='dt-font-awesome-css'  href='css/font-awesome.css?ver=3.8.1' type='text/css' media='all' />-->
     <link rel='stylesheet' id='dt-owl-carousel-css'  href='css/owl.carousel.css' type='text/css' media='all' />
-    <link rel='stylesheet' id='extend-composer-css'  href='css/extend-composer.css?ver=3.8.1' type='text/css' media='all' />
     <link rel='stylesheet' id='dt-responsive-css'  href='css/responsive.css?ver=3.8.1' type='text/css' media='all' />
-    <link rel='stylesheet' id='dt-color-schgeme-css'  href='css/orange.css?ver=3.8.1' type='text/css' media='all' />
-    <!--<script type='text/javascript' src='js/jquery.js?ver=1.10.2'></script>-->
     <script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js'></script>
     <script type="text/javascript" src="js/fittext.js"></script>
     <script type="text/javascript">
@@ -48,8 +35,7 @@
 //            fontSize_();
         });
     </script>
-    <script type='text/javascript' src='js/jquery-migrate.min.js?ver=1.2.1'></script>
-    <script type='text/javascript' src='js/jquery.themepunch.plugins.min.js?rev=4.2.6&#038;ver=3.8.1'></script>
+    <script type='text/javascript' src='js/jquery-migrate.min.js'></script>
     <script type='text/javascript' src='js/jquery.queryloader2.js?ver=1.0'></script>
     <script type='text/javascript'>
         /* <![CDATA[ */
@@ -57,92 +43,78 @@
         /* ]]> */
     </script>
     <script type='text/javascript' src='js/custom-loader.js?ver=1.0'></script>
-    <script type='text/javascript' src='js/modernizr.js?ver=2.7.1'></script>
     <script type='text/javascript' src='js/jquery.parallax.js?ver=1.1.3'></script>
-    <!--<script type='text/javascript' src='js/jquery.prettyPhoto.js?ver=3.1.5'></script>-->
-    <script type='text/javascript'>
-        /* <![CDATA[ */
-        var dt_styles = {"header_bg":"255,255,255","header_scroll_opacity":"90","default_color":"#ffffff","logo_width":"100","logo_height":"35"};
-        /* ]]> */
-    </script>
     <script type='text/javascript' src='js/custom-navscroll.js?ver=1.0'></script>
-    <style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
-    <style type="text/css" title="dynamic-css" class="options-output">html body{color:#686868;font-size:15px;font-family:Open Sans;line-height:24px;font-weight:300;}html ul#mainnav li a{color:#fff;font-size:14px;font-family:SourceSansPro-Regular;padding:0;line-height:25px;font-weight:700;}html h1{color:#444444;font-size:28px;font-family:Open Sans;line-height:36px;font-weight:300;}html h2{color:#444444;font-size:24px;font-family:Open Sans;line-height:32px;font-weight:300;}html h3{color:#444444;font-size:18px;font-family:Open Sans;line-height:24px;font-weight:300;}html h4{color:#444444;font-size:16px;font-family:Open Sans;line-height:22px;font-weight:300;}html h5{color:#444444;font-size:14px;font-family:Open Sans;line-height:20px;font-weight:300;}html h6{color:#444444;font-size:13px;font-family:Open Sans;line-height:20px;font-weight:300;}</style>
-    <!--<link rel="stylesheet" id="options-google-fonts"  href="//fonts.googleapis.com/css?family=Open+Sans:300,700&amp;v=1396268457" type="text/css" media="all" />-->
 
 </head>
 
 <body class="home vc_responsive">
 <!-- preloader-->
-<div id="qLoverlay"></div>
+<div id="preloader"></div>
 
-<header id="header" class="solid-header scrolled-header" style="padding-top: 15px; padding-bottom: 15px; background-color: rgba(0, 0, 0, 0.6); box-shadow: rgba(0, 0, 0, 0.298039) 0px 0px 3px; background-position: initial initial; background-repeat: initial initial;">
+<header id="header">
     <div class="centered-wrapper">
         <div class="percent-one-fourth">
-            <div class="logo"><a href="#" title="Cayuga mobile" rel="home"><img src="img/logo.png" alt="Cayuga mobile" style="width: auto; height: 30px;"></a></div>
-        </div><!--end one-fourth-->
+            <div class="logo"><a href="#" title="Cayuga mobile" rel="home"><img src="img/logo.png" alt="Cayuga mobile"></a></div>
+        </div>
+        <a class="nav-btn"><i class="fa fa-bars"></i></a> <!-- mobile menu icon -->
+        <div class="percent-three-fourth float-right">    <!-- menu -->
+            <nav id="navigation">
+                <ul id="mainnav" style="margin-top: 2px;">
+                    <li class="menu-item current-menu-item"><a href="http://bizapptor.com/"><span>Home</span></a></li>
+                    <li class="menu-item current-menu-item"><a href="#" class="external"><span>About</span></a></li>
+                    <li class="menu-item current-menu-item"><a href="#" class="external"><span>Services</span></a></li>
+                    <li class="menu-item current-menu-item"><a href="" class="external"><span>Projects</span></a></li>
+                    <li class="menu-item current-menu-item"><a href="#" class="external"><span>Team</span></a></li>
+                    <li class="menu-item current-menu-item"><a href="#" class="external"><span>Contact</span></a></li>
+                </ul>
 
-        <a class="nav-btn "><i class="fa fa-bars"></i></a>
-
-        <div class="percent-three-fourth" style="float:right">
-            <nav id="navigation" class="light-header desktop">
-                <div class="menu-main-menu-container"><ul id="mainnav" class="sf-menu sf-js-enabled sf-arrows" style="padding-top: 2px;">
-                    <li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home" style="overflow: visible;"><a href="http://bizapptor.com/"><span>Home</span></a></li>
-                    <li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home" style="overflow: visible;"><a href="#" class="external"><span>About</span></a></li>
-                    <li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home" style="overflow: visible;"><a href="#" class="external"><span>Services</span></a></li>
-                    <li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home" style="overflow: visible;"><a href="" class="external"><span>Projects</span></a></li>
-                    <li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home" style="overflow: visible;"><a href="#" class="external"><span>Team</span></a></li>
-                    <li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home" style="overflow: visible;"><a href="#" class="external"><span>Contact</span></a></li>
-                </ul></div>				</nav><!--end navigation-->
-
-
-        </div><!--end three-fourth-->
+            </nav><!--end navigation-->
+        </div>
         <div class="clear"></div>
     </div><!--end centered-wrapper-->
 </header>
 
 <div id="wrapper">
 
-<section>
-<article id="page-82" class="begin-content">
-<section>
-<div class=" wpb_row vc_row-fluid no-margin " style=""  data-token="qzLX0"><div class="lighter-overlay" style=" background-color: rgba(255,255,255, 0.70);">
-    <div class="vc_span12 wpb_column column_container">
-        <div class="wpb_wrapper">
-            <div class="wpb_revslider_element wpb_content_element" style="position:relative;height: 756px;text-align: center">
-                <div style="background: url('img/main.jpg') no-repeat 50% 50% ;width: 100%;height:inherit;position: absolute;background-size: cover;"></div>
-            <div style="position: relative;display: table;height: inherit;" class="centered-wrapper">
-                <div class="section-title" style="display:table-cell;vertical-align: middle;width: 100%;height: inherit;padding: 0 90px;">
-                    <div style="border-bottom: 2px solid #f7931e;">
-                        <h1 style="color:#fff;font-size: 44px;font-family:SourceSansPro-Black;line-height: 70px;margin-bottom: 5px;">WE ARE CAYUGASOFT MOBILE</h1>
+<div class="wpb_row">
+            <div class="first-block">
+                <div class="main-back"></div>
+                <div class="centered-wrapper f-block-table">
+                    <div class="aligncenter text-transform-uppercase f-block-t-c">
+                        <div class="under-h1">
+                            <h1 class="h1-margin-bottom">WE ARE CAYUGASOFT MOBILE</h1>
+                        </div>
+                        <div class="f-block-under-h1-text">We are a talanted group of mobile development experts, who can help take your idea from concept to the App Store or Play Store in just a few weeks!</div>
                     </div>
-                    <div style="color:#fff;font-size: 30px;font-family:SourceSansPro-Semibold;text-transform: initial;line-height: 40px;padding: 18px 48px 0 48px;">We are a talanted group of mobile development experts, who can help take your idea from concept to the App Store or Play Store in just a few weeks!</div>
-                </div>
-                <div class="clear"></div>
-             </div>
+                    <div class="clear"></div>
+                 </div>
 
-                <div style="position: absolute;bottom:0;padding:0 70px 20px 70px;width: 100%;color:#fff;">
-                    <div class="centered-wrapper">
+                <div class="f-block-bottom">
+                    <div class="centered-wrapper f-bottom-style">
                         <ul class="nyc-digital-mobile-studio">
                             <li>NYC Digital Mobile Studio</li>
                         </ul>
 
-                        <ul style="float: right;">
-
-                            <li style="float:left;"><a style="background:url('img/soc.png') 0 0 no-repeat;padding:3px 0 0 26px;color:#fff;" href="#">Twitter</a></li>
-                            <li style="float:left;margin:0 26px;"><a style="background:url('img/soc.png') 0 -38px no-repeat;padding:3px 0 0 26px;color:#fff;" href="#">Facebook</a></li>
-                            <li style="float:left;"><a style="background:url('img/soc.png') 0 -19px no-repeat;padding:3px 0 0 26px;color:#fff;" href="#">LinkedIn</a></li>
-                        </ul>
-                        <ul style="float: right;">
+                        <ul class="float-right">
                             <li class="follow-us">Follow Us On:</li>
+                            <li class="float-left f-b-tw">
+                                <a href="#">Twitter</a>
+                            </li>
+                            <li class="float-left li-f-b-f f-b-f">
+                                <a href="#">Facebook</a>
+                            </li>
+                            <li class="float-left f-b-lid">
+                                <a href="#">LinkedIn</a>
+                            </li>
+
                         </ul>
                     </div>
             </div>
         </div>
-    </div>
-    <div class="clear"></div></div></div>
+    <div class="clear"></div>
 
-    <div style="background-color: #f8f8f8;">
+    <div class="second-block-back">
     <div style="padding: 93px 90px 69px 90px;" class="centered-wrapper">
         <div style="text-align: center;">
             <div style="border-bottom: 2px solid #f7931e">
@@ -507,9 +479,6 @@
         </div>
     </div>
     <div class="clear"></div></div></div>
-</section>
-</article>
-</section>
 
 
 </div><!--end wrapper-->
@@ -543,7 +512,7 @@
 <script type='text/javascript' src='js/js_composer_front.js?ver=4.0.2'></script>
 <script type='text/javascript'>
     /* <![CDATA[ */
-    var dt_parallax_qzLX0 = {"id":"fog"};
+//    var dt_parallax_qzLX0 = {"id":"fog"};
     var dt_parallax_NNipg = {"id":"kbd"};
     var dt_parallax_SxcFx = {"id":"bgo"};
     var dt_parallax_xlmev = {"id":"fqf"};

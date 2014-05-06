@@ -83,8 +83,8 @@ jQuery(document).ready(function() {
 
 			
 		// Calculate Audio bar width	
-		var audiowidth = jQuery('.audio-item').width();
-		jQuery('.jp-progress').css({'width': audiowidth-250});		
+//		var audiowidth = jQuery('.audio-item').width();
+//		jQuery('.jp-progress').css({'width': audiowidth-250});
 
 		return gutterwidth;		
 

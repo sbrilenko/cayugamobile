@@ -44,7 +44,7 @@ ul#mainnav li a:active span {
 }
 
 .dark-header ul#mainnav > li.item-active > a, .dark-header ul#mainnav > li > a.sf-with-ul:hover, .dark-header ul#mainnav li > a.sf-with-ul:active, .dark-header ul#mainnav > li > a.sf-with-ul:hover, .dark-header ul#mainnav li > a.sf-with-ul:active, .dark-header ul#mainnav li a:hover, .dark-header ul#mainnav li a:active, .dark-header ul#mainnav li a.current-menu-item {
-	color: #FE7E17;	
+	color: #FE7E17;
 }
 
 .skillbar-bar {
@@ -52,7 +52,7 @@ ul#mainnav li a:active span {
 }
 
 .wrapper-service i {
-	color: #FE7E17;	
+	color: #FE7E17;
 }
 
 .tweet_time a:hover, a.tweet_action:hover {
@@ -117,7 +117,7 @@ a.comment-reply-link:hover {
 ul.tabs li.active {
     border-top: 2px solid #FE7E17;
     top: 1px;
-    
+
 }
 
 .featured-column .column-shadow {
@@ -126,7 +126,7 @@ ul.tabs li.active {
 
 .featured-column .package-title {
 	border-bottom: 3px solid #FE7E17;
-	background: #FE7E17;	
+	background: #FE7E17;
 	border-right: 0;
 }
 
@@ -163,7 +163,7 @@ ul#filters li a:hover {
 
 ul#filters li.selected a {
 	color:#fff;
-	background:#FE7E17;	
+	background:#FE7E17;
 }
 
 .portfolio h3 a:hover {
@@ -177,7 +177,7 @@ ul#filters li.selected a {
 }
 
 span.current-menu-item {
-    background: #FE7E17; 
+    background: #FE7E17;
     border: 1px solid #FE7E17;
 }
 
@@ -195,7 +195,7 @@ span.current-menu-item {
 }
 
 .toggle-plus:before {
-	content: "\f0dd";	
+	content: "\f0dd";
 }
 
 .toggle-minus {
@@ -218,7 +218,7 @@ span.current-menu-item {
 
 html .wpb_content_element .wpb_tabs_nav li.ui-state-active {
 	border-top: 2px solid #FE7E17;
-	top: 1px;	
+	top: 1px;
 }
 
 html .wpb_tour.wpb_content_element .wpb_tour_tabs_wrapper .wpb_tabs_nav li.ui-state-active  {

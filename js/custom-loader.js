@@ -5,7 +5,7 @@ jQuery(document).ready(function(){
             onLoadComplete: function() {},
             backgroundColor: "#fff",
             barColor: dt_loader.bcolor,
-            overlayId: 'qLoverlay',
+            overlayId: 'preloader',
             barHeight: 4,
             percentage: false,
             deepSearch: true,
@@ -13,7 +13,7 @@ jQuery(document).ready(function(){
             minimumTime: 500    
         });
 
-        jQuery("#qLoverlay").css({'display':'none'});
+        jQuery("#preloader").css({'display':'none'});
 
         // Rev Slider default heights
         var fullscreenheight = jQuery(window).height() - jQuery('#header').outerHeight();

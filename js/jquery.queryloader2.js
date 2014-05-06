@@ -1076,7 +1076,7 @@ function QueryLoader2(element, options) {
 		onLoadComplete: function() {},
         backgroundColor: "#000",
         barColor: "#fff",
-        overlayId: 'qLoverlay',
+        overlayId: 'preloader',
         barHeight: 1,
         percentage: false,
         deepSearch: true,
