@@ -284,6 +284,10 @@ p {
 .alignright {
     text-align:right;
 }
+.pos-rel
+{
+    position: relative;
+}
 .text-transform-uppercase
 {
     text-transform: uppercase;
@@ -744,6 +748,10 @@ h1
     /* Good browsers */
     opacity: 0.8;
  }
+.second-padd
+{
+    padding: 93px 41px 69px;
+}
 .services-mob-strat,.services-quality-ass
 {
     float:left;
@@ -787,4 +795,212 @@ h1
 {
     background-color: #f8f8f8;
 }
-
+.second-h1
+{
+    color:#313131;
+    margin-bottom: 5px;
+}
+.second-under-h1
+{
+    color:#838383;
+    padding: 18px 48px 0 48px;
+    font-family:SourceSansPro-Light;
+}
+.second-table-block
+{
+    display: table;
+    margin-top:69px;
+}
+.s-table-block-img
+{
+    display: table-cell;
+    vertical-align: middle;
+    width:35%;
+    height:183px;
+}
+.s-table-block-text
+{
+    display: table-cell;
+    vertical-align: middle;
+    width:75%;
+}
+.s-table-block-title
+{
+    font-family:SourceSansPro-Regular;
+    color:#f7931e;
+    font-size:36px;
+    line-height: 50px;
+}
+.s-table-block-text-t
+{
+    font-family:SourceSansPro-Regular;
+    color:#838383;
+    font-size:22px;
+    padding-top:30px;
+    line-height: 34px;
+}
+.quotes-block
+{
+    padding: 93px 90px 69px 90px;
+}
+.quotes-block-q1
+{
+    width: 0;
+    top: -13px;
+    height: 17px;
+    padding: 20px 60px 0 0;
+    position: relative;
+    background: url('../img/quotes.png') 0 -34px no-repeat;
+}
+.quotes-block-q2
+{
+    width: 0;top: 25px;height: 17px;padding: 18px 60px 0 0;position: relative;background: url('../img/quotes.png') 100% 0 no-repeat;
+}
+.quotes-block-text
+{
+    color:#838383;
+    font-size: 36px;
+    font-family:SourceSansPro-Light;
+    text-transform: initial;
+    line-height: 45px;
+}
+.experts-in-back
+{
+    background: url(../img/experts-back.jpg) 50% 0 no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+}
+.experts-padd
+{
+    padding: 93px 0 69px;
+}
+.experts-in-back h1
+{
+    display: inherit;padding:0 25px;border-bottom: 2px solid #f7931e;color:#fff;
+}
+.experts-in-back h1.margin
+{
+    margin-bottom: 5px;
+}
+.experts-black-line
+{
+    background-color: rgba(0,0,0, 0.50);
+    width:100%;
+    margin:69px 0 0 0;
+}
+.experts-table
+{
+    display: table
+}
+.experts-table li.block
+{
+    display:table-cell;
+    width:19.2%;
+    text-align: center;
+    background-color: rgba(255,255,255, 0.20);
+}
+.experts-table li.padd
+{
+    width:1%;
+    display:table-cell;
+}
+.experts-table li.block .padd
+{
+    padding:0 20px;
+}
+.experts-table li.block .title
+{
+    color:#f7931e;
+    font-family: SourceSansPro-Bold;
+    font-size: 22px;
+    line-height:27px;
+    padding:26px 0;
+}
+.experts-table li.block .text
+{
+    padding-bottom:36px;
+    font-family: SourceSansPro-Regular;
+    font-size:14px;
+    line-height: 20px;
+    color:#fffefe;
+}
+.experts-table li.block .text-visible
+{
+    font-family: SourceSansPro-Semibold;
+    font-size:22px;
+    line-height: 27px;
+    color:#fff;
+    margin-top:52px;
+}
+.experts-table li.block .padd.hide
+{
+    /* IE 8 */
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    /* IE 5-7 */
+    filter: alpha(opacity=0);
+    /* Netscape */
+    -moz-opacity: 0;
+    /* Safari 1.x */
+    -khtml-opacity: 0;
+    /* Good browsers */
+    opacity: 0;
+}
+.experts-table li.block .padd.visible
+{
+    display: block;
+    position: absolute;
+    top: 0;
+    width: inherit;
+}
+.experts-table li.block:hover .padd.hide,.experts-table li.block.active .padd.hide
+{
+    /* IE 8 */
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    /* IE 5-7 */
+    filter: alpha(opacity=100);
+    /* Netscape */
+    -moz-opacity: 1;
+    /* Safari 1.x */
+    -khtml-opacity: 1;
+    /* Good browsers */
+    opacity: 1;
+}
+.experts-table li.block:hover .padd.visible,.experts-table li.block.active .padd.visible
+{
+    display: none;
+}
+.business-app
+{
+    background:url(../img/experts-bus-app.png) center no-repeat;
+    height:105px;
+    margin-top:26px;
+    background-size: contain;
+}
+.gaming
+{
+    background:url(../img/experts-gaming.png) center no-repeat;
+    height:105px;
+    margin-top:26px;
+    background-size: contain;
+}
+.experts-social-media
+{
+    background:url(../img/experts-social-media.png) center no-repeat;
+    height:105px;
+    margin-top:26px;
+    background-size: contain;
+}
+.experts-mobile-comm
+{
+    background:url(../img/experts-mobile-comm.png) center no-repeat;
+    height:105px;
+    margin-top:26px;
+    background-size: contain;
+}
+.experts-internet-of-things
+{
+    background:url(../img/experts-internet-of-things.png) center no-repeat;
+    height:105px;
+    margin-top:26px;
+    background-size: contain;
+}

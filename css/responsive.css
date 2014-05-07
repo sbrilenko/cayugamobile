@@ -291,6 +291,14 @@
     {
         padding: 6px 10px;
     }
+    .f-block-t-c
+    {
+        display: table-cell;
+        vertical-align: middle;
+        width: 100%;
+        height: inherit;
+        padding: 0 10px;
+    }
 }
 
 
@@ -301,7 +309,6 @@
 
 	html #wrapper {
 		width:480px;
-	
 		margin: 0 auto;
 	}
 
@@ -390,16 +397,125 @@
         float:none;
         text-align: center;
     }
-    .follow-us
+    .follow-us-ul li
+    {
+        display: inline-block;
+    }
+    .follow-us,.follow-us-ul
     {
         float:none;
         margin:0;
         text-align: center;
     }
+    .follow-us
+    {
+        margin-right: 26px;
+    }
+
 
     ul#mainnav > li.current-menu-item > a span, ul#mainnav > li.current-menu-item > span span
     {
         padding: 6px 10px;
+    }
+    .first-block
+    {
+        position: relative;
+        height: 547px;
+    }
+    .f-block-t-c
+    {
+        display: table-cell;
+        vertical-align: middle;
+        width: 100%;
+        height: inherit;
+        padding: 0 10px;
+    }
+    h1
+    {
+        color: #fff;
+        font-size: 28px;
+        font-family: SourceSansPro-Black;
+        line-height: 42px;
+    }
+    .f-block-under-h1-text
+    {
+        color: #fff;
+        font-size: 21px;
+        font-family: SourceSansPro-Semibold;
+        text-transform: initial;
+        line-height: 28px;
+        padding: 18px 10px 0 10px;
+    }
+    .f-block-under-h1-text.second-under-h1
+    {
+        color: #838383;
+        font-size: 17px;
+        line-height: 25px;
+        font-family: SourceSansPro-Light;
+    }
+    .second-padd
+    {
+        padding: 40px 0px 25px;
+    }
+    .second-table-block
+    {
+        margin-top:25px;
+    }
+    .s-table-block-img
+    {
+        display: none;
+    }
+    .s-table-block-title
+    {
+        font-size: 36px;
+        line-height: 50px;
+        text-align: center;
+    }
+    .s-table-block-text-t
+    {
+        text-align: justify;
+    }
+    .quotes-block
+    {
+        padding:58px 0 45px;
+    }
+    .quotes-block-text
+    {
+        font-size: 30px;
+        line-height: 45px;
+    }
+    .experts-table
+    {
+        display: block;
+    }
+    .experts-table li.block
+    {
+        display: block;
+        position: relative;
+        width:100%;
+        min-height: 200px;
+    }
+    .business-app
+    {
+        margin-top:0;
+    }
+    .experts-table li.block .text-visible
+    {
+        margin-top:15px;
+    }
+    .experts-table li.padd
+    {
+        display: block;
+        width:100%;
+        height:15px;
+    }
+    .experts-table li.block .padd.visible
+    {
+        margin:15px 0;
+    }
+    .business-app,.gaming,.experts-social-media,.experts-mobile-comm,.experts-internet-of-things
+    {
+        margin-top:0px;
     }
 }
 
@@ -495,9 +611,66 @@
     }
     .f-block-under-h1-text
     {
-        font-size: 17px;
+        font-size: 19px;
         line-height: 30px;
+        padding: 18px 9px 0 9px;
     }
+    .second-padd
+    {
+        padding: 55px 41px 40px;
+    }
+    .s-table-block-title
+    {
+        font-size: 22px;
+        line-height: 31px;
+    }
+    .second-table-block
+    {
+        margin-top:40px;
+    }
+    .quotes-block
+    {
+        padding: 55px 41px 40px;
+    }
+    .quotes-block-text
+    {
+        font-size: 26px;
+        line-height: 40px;
+    }
+    .experts-table
+    {
+        display: block;
+    }
+    .experts-table li.block
+    {
+        display: block;
+        position: relative;
+        width:100%;
+        min-height: 200px;
+    }
+    .business-app
+    {
+        margin-top:0;
+    }
+    .experts-table li.block .text-visible
+    {
+        margin-top:15px;
+    }
+    .experts-table li.padd
+    {
+        display: block;
+        width:100%;
+        height:15px;
+    }
+    .experts-table li.block .padd.visible
+    {
+        margin:15px 0;
+    }
+    .business-app,.gaming,.experts-social-media,.experts-mobile-comm,.experts-internet-of-things
+    {
+        margin-top:0px;
+    }
+
 }
 
 @media only screen and (min-width: 1024px) and (max-width: 1279px) {
@@ -524,6 +697,39 @@
         font-size: 25px;
         line-height: 35px;
     }
+    .second-padd
+    {
+        padding: 70px 41px 45px;
+    }
+    .second-table-block
+    {
+        margin-top:45px;
+    }
+    .s-table-block-title
+    {
+        font-size: 32px;
+        line-height: 45px;
+    }
+    .s-table-block-text-t
+    {
+        font-size: 26px;
+        line-height: 40px;
+    }
+    .quotes-block
+    {
+        padding: 70px 90px 45px 90px;
+    }
+    .quotes-block-text
+    {
+        font-size: 32px;
+        line-height: 43px;
+    }
+    .experts-table li.block .title
+    {
+        font-size:19px;
+        line-height: 24px;
+    }
+
 }
 
 @media only screen and (max-width: 767px) { 
