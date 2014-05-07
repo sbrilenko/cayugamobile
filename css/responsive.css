@@ -517,6 +517,14 @@
     {
         margin-top:0px;
     }
+    .experts-padd
+    {
+        padding: 40px 0 25px;
+    }
+    .experts-black-line
+    {
+        margin: 25px 0 0 0;
+    }
 }
 
 
@@ -670,6 +678,14 @@
     {
         margin-top:0px;
     }
+    .experts-padd
+    {
+        padding: 55px 0 40px;
+    }
+    .experts-black-line
+    {
+        margin: 40px 0 0 0;
+    }
 
 }
 
@@ -728,6 +744,14 @@
     {
         font-size:19px;
         line-height: 24px;
+    }
+    .experts-padd
+    {
+        padding: 70px 0 45px;
+    }
+    .experts-black-line
+    {
+        margin: 45px 0 0 0;
     }
 
 }
