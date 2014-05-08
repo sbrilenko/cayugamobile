@@ -322,9 +322,6 @@ input[type=submit] {
     margin:0;
 }
 
-input[type=submit] {
-    padding: 11px 20px;
-}
 
 input[type="text"], input[type="email"], input[type="password"], textarea, select {
     border: 1px solid #e4e4e4;
@@ -588,8 +585,13 @@ ul#mainnav li ul li a, ul#mainnav li ul li ul li a, ul#mainnav li ul li a:visite
     position:relative;
     font-size: 18px;
     line-height: 30px;
+    display: table;
 }
-
+.testimonial-item>div
+{
+    display: table-cell;
+    vertical-align: middle;
+}
 
 #testimonials {
     min-height:180px;
@@ -748,7 +750,7 @@ h1
     /* Good browsers */
     opacity: 0.8;
  }
-.second-padd
+.second-padd,.services-padd
 {
     padding: 93px 41px 69px;
 }
@@ -764,6 +766,32 @@ h1
 {
     width:40%;
     text-align: center;
+    margin-top:69px;
+}
+.services-mob-strat .logo
+{
+    background: url('../img/mob-strategy.png') center no-repeat;
+    height:105px;
+}
+.services-mob-develop .logo
+{
+    background: url('../img/mob-develop.png') center no-repeat;
+    height:105px;
+}
+.services-quality-ass .logo
+{
+    background: url('../img/quality-ass.png') center no-repeat;
+    height:105px;
+}
+.services-quality-ass .logo
+{
+    background: url('../img/quality-ass.png') center no-repeat;
+    height:105px;
+}
+.services-user-interfice .logo
+{
+    background: url('../img/user-interface.png') center no-repeat;
+    height:105px;
 }
 .soc-color
 {
@@ -1004,3 +1032,118 @@ h1
     margin-top:26px;
     background-size: contain;
 }
+.services-padd h1,.client-work-padd h1,.contact-padd-h1 h1
+{
+    padding:0 25px 5px 25px;
+    color:#313131;
+    display: inherit;
+}
+.services-block-mar
+{
+    margin: 0 39px;
+}
+.services-block-title
+{
+    font-family:SourceSansPro-Semibold;
+    font-size:22px;
+    color:#4e525d;
+    line-height: 27px;
+    padding: 48px 0 16px 0;
+}
+.services-block-text
+{
+    font-family:SourceSansPro-Regulard;
+    font-size:14px;
+    color:#838383;
+}
+.client-work-padd
+{
+    padding: 93px 0 69px;
+    background-color: #f8f8f8;
+}
+.client-work-title-padd
+{
+    margin-bottom: 69px;
+}
+.client-work-slide-title-padd
+{
+    text-align: center;
+    padding: 40px 0 61px 0;
+}
+.client-work-slide-title
+{
+    font-family:SourceSansPro-Regular;
+    font-size:36px;
+    color:#f7931e;
+    line-height: 40px
+}
+.client-work-slide-text
+{
+    color:#838383;
+    font-size: 22px;
+    font-family:SourceSansPro-Regular;
+    text-transform: initial;
+    padding: 0 40px;
+}
+.testimonial-item>div.mobile-hide
+{
+    display: none;
+}
+.team-people-name
+{
+    font-family:SourceSansPro-Semibold;
+    font-size:22px;
+    line-height: 27px;
+    color:#4e525d;
+}
+.team-people-position
+{
+    font-family:SourceSansPro-Regular;
+    font-size:14px;
+    line-height: 20px;
+    color:#838383;
+}
+#contact
+{
+    background: url(../img/contacs-back.jpg) 50% 0 repeat-y;
+    background-attachment: fixed;
+    background-size: contain;
+}
+.contact-padd
+{
+    padding: 93px 0 69px;
+}
+.contact-m-top-content
+{
+    margin-top:69px;
+}
+.contact-left-title
+{
+    color:#fff;
+    font-family: SourceSansPro-Regular;
+    font-size:48px;
+    line-height:53px;
+    margin-bottom:76px;
+}
+.contact-left-text
+{
+    margin-top:12px;
+    font-size: 14px;
+    color:#fff;
+    font-family:SourceSansPro-Regular;
+}
+#contact form input[type=text],#contact form textarea
+{
+    color:#cacaca;
+}
+.contact-send-button
+{
+    padding:11px 69px;
+    font-family:SourceSansPro-Regular;
+    font-size: 22px;
+    border-radius: 3px;
+    color:#fff;
+    text-transform: none
+}
+
+
